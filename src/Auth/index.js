@@ -31,9 +31,9 @@ export default function Auth() {
   };
 
   return (
-    <Flex justifyContent="center" alignItems="center" h="100vh">
+    <Flex justifyContent="center" alignItems="center" p={4} h="100vh">
       <Box className="col-6 form-widget" aria-live="polite">
-        <Heading>Supabase ✖️ React ✖️ Hookstate</Heading>
+        <Heading textAlign="center">Supabase ✖️ React ✖️ Hookstate</Heading>
         <Text my={4} textAlign="center">
           Sign in via magic link with your email below
         </Text>
